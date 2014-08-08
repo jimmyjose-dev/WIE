@@ -9,8 +9,8 @@ Extract all images from weblink
 Steps to add framework
 ---------
 
-> 1) Drag and drop WIEFramework.framework to your project 2) Add
-> libxml2.2
+> 1) Drag and drop WIEFramework.framework to your project 
+> 2) Addlibxml2.2
 
 
 ----------
@@ -18,14 +18,15 @@ Steps to add framework
 Sample code
 ---------
     - (void)viewDidLoad {
-	[super viewDidLoad];
+		[super viewDidLoad];
 
-	NSString *weblink = @"http://www.varshylmobile.com/";
+		NSString *weblink = @"http://www.varshylmobile.com/";
 
-	VMWIE *vm = [VMWIE instance];
-	vm.delegate = self;
-	[vm extractImagesForURL:weblink];
-    }
+		VMWIE *vm = [VMWIE instance];
+		vm.delegate = self;
+		[vm extractImagesForURL:weblink];
+	}
+
     -(void)imageExtractFinishedWithPaths:(NSArray *)imageSourcePath{
     //imagePath of images extracted in imageSourcePath
         }
@@ -43,7 +44,7 @@ Demo app included to get you started
 Credit
 ---------------
 
-The framework uses HTMLParser written by Ben Reeves
+WIE framework makes use of HTMLParser written by Ben Reeves
 
 
 ----------

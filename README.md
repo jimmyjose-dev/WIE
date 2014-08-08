@@ -10,6 +10,7 @@ Steps to add framework
 ---------
 
 > 1) Drag and drop WIEFramework.framework to your project 
+
 > 2) Addlibxml2.2
 
 

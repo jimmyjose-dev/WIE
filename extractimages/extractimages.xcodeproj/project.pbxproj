@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF1528C11687726700ADB25B /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1528BB1687726700ADB25B /* EGOCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF1528C21687726700ADB25B /* EGOImageLoadConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1528BE1687726700ADB25B /* EGOImageLoadConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF1528C31687726700ADB25B /* EGOImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1528C01687726700ADB25B /* EGOImageLoader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF1528C61687727B00ADB25B /* EGOImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1528C51687727B00ADB25B /* EGOImageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF338FD016889025007C5E3B /* ExtractedImagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF338FCE16889025007C5E3B /* ExtractedImagesViewController.m */; };
+		BF338FD116889025007C5E3B /* ExtractedImagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF338FCF16889025007C5E3B /* ExtractedImagesViewController.xib */; };
+		BF8306E016862F9700754D00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8306DF16862F9700754D00 /* UIKit.framework */; };
+		BF8306E216862F9700754D00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8306E116862F9700754D00 /* Foundation.framework */; };
+		BF8306E416862F9700754D00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8306E316862F9700754D00 /* CoreGraphics.framework */; };
+		BF8306EA16862F9700754D00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF8306E816862F9700754D00 /* InfoPlist.strings */; };
+		BF8306EC16862F9700754D00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8306EB16862F9700754D00 /* main.m */; };
+		BF8306F016862F9700754D00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8306EF16862F9700754D00 /* AppDelegate.m */; };
+		BF8306F216862F9700754D00 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BF8306F116862F9700754D00 /* Default.png */; };
+		BF8306F416862F9700754D00 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF8306F316862F9700754D00 /* Default@2x.png */; };
+		BF8306F616862F9700754D00 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF8306F516862F9700754D00 /* Default-568h@2x.png */; };
+		BF8306F916862F9700754D00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8306F816862F9700754D00 /* ViewController.m */; };
+		BF8306FC16862F9700754D00 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8306FA16862F9700754D00 /* ViewController.xib */; };
+		BFC116BE199461BF001D9BDF /* WIEFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC116BD199461BF001D9BDF /* WIEFramework.framework */; };
+		BFC116BF19946630001D9BDF /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1528B21686D95B00ADB25B /* libxml2.2.dylib */; };
+		BFC116C31994674F001D9BDF /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC116C21994674F001D9BDF /* MBProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF1528B21686D95B00ADB25B /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		BF1528BA1687726700ADB25B /* EGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
+		BF1528BB1687726700ADB25B /* EGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
+		BF1528BD1687726700ADB25B /* EGOImageLoadConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoadConnection.h; sourceTree = "<group>"; };
+		BF1528BE1687726700ADB25B /* EGOImageLoadConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoadConnection.m; sourceTree = "<group>"; };
+		BF1528BF1687726700ADB25B /* EGOImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoader.h; sourceTree = "<group>"; };
+		BF1528C01687726700ADB25B /* EGOImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoader.m; sourceTree = "<group>"; };
+		BF1528C41687727B00ADB25B /* EGOImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageView.h; sourceTree = "<group>"; };
+		BF1528C51687727B00ADB25B /* EGOImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageView.m; sourceTree = "<group>"; };
+		BF338FCD16889025007C5E3B /* ExtractedImagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtractedImagesViewController.h; sourceTree = "<group>"; };
+		BF338FCE16889025007C5E3B /* ExtractedImagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtractedImagesViewController.m; sourceTree = "<group>"; };
+		BF338FCF16889025007C5E3B /* ExtractedImagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExtractedImagesViewController.xib; sourceTree = "<group>"; };
+		BF8306DB16862F9700754D00 /* extractimages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = extractimages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8306DF16862F9700754D00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF8306E116862F9700754D00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF8306E316862F9700754D00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF8306E716862F9700754D00 /* extractimages-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "extractimages-Info.plist"; sourceTree = "<group>"; };
+		BF8306E916862F9700754D00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF8306EB16862F9700754D00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF8306ED16862F9700754D00 /* extractimages-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "extractimages-Prefix.pch"; sourceTree = "<group>"; };
+		BF8306EE16862F9700754D00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF8306EF16862F9700754D00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF8306F116862F9700754D00 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BF8306F316862F9700754D00 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BF8306F516862F9700754D00 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BF8306F716862F9700754D00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF8306F816862F9700754D00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF8306FB16862F9700754D00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BFC116BD199461BF001D9BDF /* WIEFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WIEFramework.framework; sourceTree = "<group>"; };
+		BFC116C11994674F001D9BDF /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		BFC116C21994674F001D9BDF /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF8306D816862F9700754D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC116BF19946630001D9BDF /* libxml2.2.dylib in Frameworks */,
+				BFC116BE199461BF001D9BDF /* WIEFramework.framework in Frameworks */,
+				BF8306E016862F9700754D00 /* UIKit.framework in Frameworks */,
+				BF8306E216862F9700754D00 /* Foundation.framework in Frameworks */,
+				BF8306E416862F9700754D00 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF1528B81687725300ADB25B /* EGO */ = {
+			isa = PBXGroup;
+			children = (
+				BF1528C41687727B00ADB25B /* EGOImageView.h */,
+				BF1528C51687727B00ADB25B /* EGOImageView.m */,
+				BF1528B91687726700ADB25B /* EGOCache */,
+				BF1528BC1687726700ADB25B /* EGOImageLoader */,
+			);
+			name = EGO;
+			sourceTree = "<group>";
+		};
+		BF1528B91687726700ADB25B /* EGOCache */ = {
+			isa = PBXGroup;
+			children = (
+				BF1528BA1687726700ADB25B /* EGOCache.h */,
+				BF1528BB1687726700ADB25B /* EGOCache.m */,
+			);
+			path = EGOCache;
+			sourceTree = "<group>";
+		};
+		BF1528BC1687726700ADB25B /* EGOImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				BF1528BD1687726700ADB25B /* EGOImageLoadConnection.h */,
+				BF1528BE1687726700ADB25B /* EGOImageLoadConnection.m */,
+				BF1528BF1687726700ADB25B /* EGOImageLoader.h */,
+				BF1528C01687726700ADB25B /* EGOImageLoader.m */,
+			);
+			path = EGOImageLoader;
+			sourceTree = "<group>";
+		};
+		BF8306D016862F9700754D00 = {
+			isa = PBXGroup;
+			children = (
+				BF1528B21686D95B00ADB25B /* libxml2.2.dylib */,
+				BF8306E516862F9700754D00 /* extractimages */,
+				BF8306DE16862F9700754D00 /* Frameworks */,
+				BF8306DC16862F9700754D00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF8306DC16862F9700754D00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF8306DB16862F9700754D00 /* extractimages.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF8306DE16862F9700754D00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFC116BD199461BF001D9BDF /* WIEFramework.framework */,
+				BF8306DF16862F9700754D00 /* UIKit.framework */,
+				BF8306E116862F9700754D00 /* Foundation.framework */,
+				BF8306E316862F9700754D00 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF8306E516862F9700754D00 /* extractimages */ = {
+			isa = PBXGroup;
+			children = (
+				BFC116C01994674F001D9BDF /* MBProgressHUD */,
+				BF1528B81687725300ADB25B /* EGO */,
+				BF8306EE16862F9700754D00 /* AppDelegate.h */,
+				BF8306EF16862F9700754D00 /* AppDelegate.m */,
+				BF8306F716862F9700754D00 /* ViewController.h */,
+				BF8306F816862F9700754D00 /* ViewController.m */,
+				BF8306FA16862F9700754D00 /* ViewController.xib */,
+				BF8306E616862F9700754D00 /* Supporting Files */,
+				BF338FCD16889025007C5E3B /* ExtractedImagesViewController.h */,
+				BF338FCE16889025007C5E3B /* ExtractedImagesViewController.m */,
+				BF338FCF16889025007C5E3B /* ExtractedImagesViewController.xib */,
+			);
+			path = extractimages;
+			sourceTree = "<group>";
+		};
+		BF8306E616862F9700754D00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF8306E716862F9700754D00 /* extractimages-Info.plist */,
+				BF8306E816862F9700754D00 /* InfoPlist.strings */,
+				BF8306EB16862F9700754D00 /* main.m */,
+				BF8306ED16862F9700754D00 /* extractimages-Prefix.pch */,
+				BF8306F116862F9700754D00 /* Default.png */,
+				BF8306F316862F9700754D00 /* Default@2x.png */,
+				BF8306F516862F9700754D00 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFC116C01994674F001D9BDF /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				BFC116C11994674F001D9BDF /* MBProgressHUD.h */,
+				BFC116C21994674F001D9BDF /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF8306DA16862F9700754D00 /* extractimages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8306FF16862F9700754D00 /* Build configuration list for PBXNativeTarget "extractimages" */;
+			buildPhases = (
+				BF8306D716862F9700754D00 /* Sources */,
+				BF8306D816862F9700754D00 /* Frameworks */,
+				BF8306D916862F9700754D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = extractimages;
+			productName = extractimages;
+			productReference = BF8306DB16862F9700754D00 /* extractimages.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF8306D216862F9700754D00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = VarshylMobile;
+			};
+			buildConfigurationList = BF8306D516862F9700754D00 /* Build configuration list for PBXProject "extractimages" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF8306D016862F9700754D00;
+			productRefGroup = BF8306DC16862F9700754D00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF8306DA16862F9700754D00 /* extractimages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF8306D916862F9700754D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8306EA16862F9700754D00 /* InfoPlist.strings in Resources */,
+				BF8306F216862F9700754D00 /* Default.png in Resources */,
+				BF8306F416862F9700754D00 /* Default@2x.png in Resources */,
+				BF8306F616862F9700754D00 /* Default-568h@2x.png in Resources */,
+				BF8306FC16862F9700754D00 /* ViewController.xib in Resources */,
+				BF338FD116889025007C5E3B /* ExtractedImagesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF8306D716862F9700754D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8306EC16862F9700754D00 /* main.m in Sources */,
+				BF8306F016862F9700754D00 /* AppDelegate.m in Sources */,
+				BF8306F916862F9700754D00 /* ViewController.m in Sources */,
+				BF1528C11687726700ADB25B /* EGOCache.m in Sources */,
+				BFC116C31994674F001D9BDF /* MBProgressHUD.m in Sources */,
+				BF1528C21687726700ADB25B /* EGOImageLoadConnection.m in Sources */,
+				BF1528C31687726700ADB25B /* EGOImageLoader.m in Sources */,
+				BF1528C61687727B00ADB25B /* EGOImageView.m in Sources */,
+				BF338FD016889025007C5E3B /* ExtractedImagesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF8306E816862F9700754D00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF8306E916862F9700754D00 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF8306FA16862F9700754D00 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF8306FB16862F9700754D00 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF8306FD16862F9700754D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF8306FE16862F9700754D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF83070016862F9700754D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "extractimages/extractimages-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "extractimages/extractimages-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF83070116862F9700754D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "extractimages/extractimages-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "extractimages/extractimages-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF8306D516862F9700754D00 /* Build configuration list for PBXProject "extractimages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8306FD16862F9700754D00 /* Debug */,
+				BF8306FE16862F9700754D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8306FF16862F9700754D00 /* Build configuration list for PBXNativeTarget "extractimages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF83070016862F9700754D00 /* Debug */,
+				BF83070116862F9700754D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF8306D216862F9700754D00 /* Project object */;
+}

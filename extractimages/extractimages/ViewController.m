@@ -30,10 +30,14 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 
-	NSString *weblink = @"http://www.varshylmobile.com/";
+	NSString *weblink = @"https://developer.apple.com/LIBRARY/ios/documentation/Cocoa/Conceptual/Strings/Articles/readingFiles.html";//@"https://play.google.com/store/apps/details?id=com.varshylmobile.cloudqrscan&hl=en";//@"http://www.varshylmobile.com/";
 
 	VMWIE *vm = [VMWIE instance];
+    NSLog(@"vm.slowAndAccurate %d",vm.slowAndAccurate);
+    vm.slowAndAccurate = YES;
+    NSLog(@"vm.slowAndAccurate %d",vm.slowAndAccurate);
 	vm.delegate = self;
+    vm.debugdelegate = self;
 	[vm extractImagesForURL:weblink];
 }
 
@@ -54,19 +58,28 @@
 }
 
 - (void)imageExtractStarted {
-	[MBProgressHUD showHUDAddedTo:self.view animated:YES].detailsLabelText = @"Extracting images....";
+	NSLog(@"start");
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES].detailsLabelText = @"Extracting images....";
 }
 
 - (void)imageExtractFinishedWithPaths:(NSArray *)imageSourcePath {
-	[MBProgressHUD hideHUDForView:self.view animated:YES];
 
-	// being called twice..so added if condition, will fix it later,
-	if (![self.navigationController.topViewController isKindOfClass:[ExtractedImagesViewController class]]) {
-		ExtractedImagesViewController *extractedImagesVC = [[ExtractedImagesViewController alloc] initWithNibName:@"ExtractedImagesViewController" bundle:nil];
-		extractedImagesVC.imagesArray = [NSArray arrayWithArray:imageSourcePath];
-		extractedImagesVC.title = @"Extracted Images";
-		[self.navigationController pushViewController:extractedImagesVC animated:YES];
-	}
+	NSLog(@"end");
+	
+    [MBProgressHUD hideHUDForView:self.view animated:YES];
+
+    if (imageSourcePath) {
+        
+	ExtractedImagesViewController *extractedImagesVC = [[ExtractedImagesViewController alloc] initWithNibName:@"ExtractedImagesViewController" bundle:nil];
+    extractedImagesVC.imagesArray = [NSArray arrayWithArray:imageSourcePath];
+    extractedImagesVC.title = @"Extracted Images";
+        [self.navigationController pushViewController:extractedImagesVC animated:YES];
+    
+    }else{
+    
+        NSLog(@"No images found");
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning {

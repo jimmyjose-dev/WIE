@@ -36,6 +36,7 @@
 
 @property(retain,nonatomic) id <VMWIEDelegate> delegate;
 @property(retain,nonatomic) id <VMWIEDebugDelegate> debugdelegate;
+@property (assign,nonatomic)BOOL slowAndAccurate;//By Default is NO
 
 -(void)extractImagesForURL:(NSString *)urlString;
 
